@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// @ts-check
 import puppeteer from "puppeteer";
 import { mkdir, writeFile, readFile, unlink } from "node:fs/promises";
 import { homedir } from "node:os";
@@ -11,11 +12,13 @@ if (!command || !profile) {
   process.exit(1);
 }
 
-function profileDir(name: string) {
+/** @param {string} name */
+function profileDir(name) {
   return join(homedir(), ".local", "share", "rpa-browser", name);
 }
 
-function stateFile(name: string) {
+/** @param {string} name */
+function stateFile(name) {
   return join(profileDir(name), "state.json");
 }
 
