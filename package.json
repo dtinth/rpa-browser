@@ -1,0 +1,11 @@
+{
+  "name": "rpa-browser",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "rpa-browser": "./main.ts"
+  },
+  "dependencies": {
+    "puppeteer": "^24.38.0"
+  }
+}
