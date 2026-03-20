@@ -8,6 +8,9 @@
   "files": [
     "main.ts"
   ],
+  "engines": {
+    "node": ">=24"
+  },
   "dependencies": {
     "puppeteer": "^24.38.0"
   }
