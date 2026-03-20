@@ -5,6 +5,10 @@
   "bin": {
     "rpa-browser": "./main.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtinth/rpa-browser"
+  },
   "files": [
     "main.ts"
   ],
