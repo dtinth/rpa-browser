@@ -1,6 +1,6 @@
 {
   "name": "rpa-browser",
-  "version": "0.1.0-0",
+  "version": "0.1.0",
   "type": "module",
   "bin": {
     "rpa-browser": "./main.ts"
