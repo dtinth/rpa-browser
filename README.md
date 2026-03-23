@@ -2,6 +2,8 @@
 
 A persistent browser daemon using Puppeteer, designed for RPA (robotic process automation) workflows. Launches a browser with a named profile and exposes its WebSocket endpoint so other tools can connect to it.
 
+For example usage, see [rpa-scripts-template](https://github.com/dtinth/rpa-scripts-template).
+
 ## Usage
 
 ```sh
