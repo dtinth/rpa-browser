@@ -5,6 +5,9 @@ A persistent browser daemon using Puppeteer, designed for RPA (robotic process a
 ## Usage
 
 ```sh
+# Install it globally so multiple RPA projects will use the same latest browser
+mise use --global npm:rpa-browser
+
 # Start a browser daemon with a named profile
 rpa-browser daemon <profile-name>
 
